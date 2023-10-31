@@ -23,7 +23,7 @@ public class BasicRainController : RainController, ISALeftMouseClick
         rain.Stop();
     }
 
-    public void OnMouseClickSignal()
+    public void OnLeftMouseClickSignal()
     {
         if (rain.isPlaying)
             rain.Stop();

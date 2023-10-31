@@ -1,4 +1,4 @@
 public interface ISALeftMouseClick
 {
-    public void OnMouseClickSignal();
+    public void OnLeftMouseClickSignal();
 }

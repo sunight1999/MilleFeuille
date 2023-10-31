@@ -16,7 +16,7 @@ public class RainManager : SingletonMono<RainManager>
     {
         if (Input.GetMouseButtonDown(0))
         {
-            (controller as ISALeftMouseClick)?.OnMouseClickSignal();
+            (controller as ISALeftMouseClick)?.OnLeftMouseClickSignal();
         }
 
         float horizontal = Input.GetAxis("Horizontal");
